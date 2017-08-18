@@ -1,16 +1,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 	<head>
-		<script src="js/liveclock_lite.js"></script>
+		<script src="js/liveclock_lite.js">
+		
+		/*
+Live Clock Script-
+By Mark Plachetta (astro@bigpond.net.au(c)) based on code from DynamicDrive.com
+For full source code, 100's more DHTML scripts, and Terms Of Use,
+visit http://www.dynamicdrive.com
+*/
+		
+		</script>
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 		<link rel="stylesheet" type="text/css" href="css/contact.css">
 		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 		<script src='js/api.js' ></script>
 		
 	</head>
-	
+	<!--Body of the page-->
 	<body onLoad="show_clock();">
-		
+	
+	<!--Menu List--> 	
 		<div>
 			<table>
 				<tr>
@@ -24,8 +34,9 @@
 		
 		</div>
 		
+	<!-- Contact email box-->
 	<center>
-		<h1><img id="contractImg" src="https://karlacafe.github.io/images/contact.PNG"></img></h1>
+		<h1><img id="contractImg" src="images/contact.png"></img></h1>
 		<br><br><br>
 		<font>Your Email:</font><input type="text" id='emailTextBox'><br>
 		<font>Your Subject:</font><input type="text" id='subjectTextBox'><br>
@@ -37,11 +48,11 @@
 		<br>
 		<button onClick='sendAPIEmail();'>Send Email</button>
 		<br><br>
-		<object width="300" height="70" data="audio/welcome.mp3"></object>
+		<!-- Welcome audio Box--> <!-- audio citation https://www.youtube.com/watch?v=hW_mrBH_8j4 by: Berlin Atmospheres-->
+		<object width="300" height="70" data="audio/welcome.mp3">
+		</object>
 		<br><br>
 		
-		
 	</center>
-	
 	</body>
 </html>
