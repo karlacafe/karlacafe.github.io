@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+	<head>
+		<script src="js/liveclock_lite.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script src='js/api.js' ></script>
+		
+	</head>
+	
+	<body onLoad="show_clock();">
+		
+		<div>
+			<table>
+				<tr>
+					<td> <a href='index.html'><span class="centerT">Home</span></a> </td>
+					<td> <a href='menu.html'><span class="centerT">Menu</span></a> </td>
+					<td> <a href='delivery.html'><span class="centerT">Delivery</span></a> </td>
+					<td> <a href='contact.html'><span class="centerT">Contact</span> </a> </td>
+				</tr>
+					
+			</table>
+		
+		</div>
+		
+	<center>
+		<h1><img id="contractImg" src="images/contact.png"></img></h1>
+		<br><br><br>
+		<font>Your Email:</font><input type="text" id='emailTextBox'><br>
+		<font>Your Subject:</font><input type="text" id='subjectTextBox'><br>
+		<font>Your message:</font> 
+		<br>
+		<textarea rows="4" cols="50" id='messageBox'>
+
+		</textarea>
+		<br>
+		<button onClick='sendAPIEmail();'>Send Email</button>
+		<br><br>
+		<object width="300" height="70" data="audio/welcome.mp3"></object>
+		<br><br>
+		
+		
+	</center>
+	
+	</body>
+</html>

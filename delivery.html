@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+	<head>
+		<script src="js/liveclock_lite.js"></script>
+		<script src="js/checktime.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<link rel="stylesheet" type="text/css" href="css/delivery.css">
+	</head>
+	
+	<body onLoad="show_clock();">
+
+		<div >
+			<table>
+				<tr>
+					<td> <a href='index.html'><font >Home</font></a> </td>
+					<td> <a href='menu.html'><font >Menu</font></a> </td>
+					<td> <a href='delivery.html'><font >Delivery</font></a> </td>
+					<td> <a href='contact.html'><font >Contact</font> </a> </td>
+				</tr>
+					
+			</table>
+		
+		</div>
+		
+		<center>
+			<h1><img id='deliveryImg' src="images/delivery.png"></img></h1>
+		
+
+			<h1><font><label id='thingHere'>Click button below to see if we are delivering:</label></font></h1>
+			<br><br>
+			<button type="button" onClick="checkTime();">Are we delivering?</button>
+		</center>	
+	</body>
+</html>
