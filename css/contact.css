@@ -1,0 +1,26 @@
+td {
+	margin-left:10px;
+	width:400px;
+}
+
+img{
+	height:90%;
+	width:90%;
+}
+
+		
+.centerT{
+	text-align: center;
+	list-style-position:inside;
+	color:white;
+	text-decoration: underline;
+}
+		
+font{
+	 color:white;
+}
+
+#contractImg{
+	height:250px;
+	width:800px;
+}
