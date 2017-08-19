@@ -2,7 +2,7 @@ td {
 	margin-left:10px;
 	width:400px;
 }
-
+/* Ordered List*/
 ol{
 	font-size:1.5em;
 	color:white;
@@ -16,16 +16,22 @@ ol{
 #sandwichImg{
 	height:300px;
 	width:300px;
+	/*https://miami.eat24hours.com/files/cuisines/v4/sandwiches.jpg*/
+	
 }
 
 #saladImg{
 	height:300px;
 	width:380px;
+	/*https://www.panerabread.com/foundation/menu/details/thai-chicken-salad-whole.jpg/_jcr_content/renditions/thai-chicken-salad-whole.desktop.jpeg*/
+	/*By: Panera Bread*/
+	
 }
 
 #drinkImg{
 	height:300px;
 	width:300px;
+	/*https://www.einsteinbros.com/images/bg-menu-beverages.jpg*/
 }
 
 #menuImg{
