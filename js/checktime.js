@@ -6,7 +6,7 @@ function checkTime(){
 	if (hours < 8) {
         msg = "Sorry. We are not delivering at this time.";
     } else if (hours < 20) {
-        msg = "We are delivering! Give us a call!";
+        msg = "We are delivering! Give us a call (973)472-1201!";
     } else if (hours >= 20){
         msg = "Sorry. We are not delivering at this time.";
     }

@@ -24,7 +24,7 @@ function sendAPIEmail(){
 		return;
 	}
 
-	// Send to company
+	// Send to my cafe
 	emailjs.send("sendgrid", "template_toCompany", {"reply_to":"kpm5311@gmail.com",
 	"to_name":"karlacafe","from_name":toEmailName,
 	"message_html":message}).then(function(response) {
